@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.btn,
+.vault-btn {
+    background-color: #469165;
+    border: none;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+header nav {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    width: 85%;
+}
+
+header .logo img {
+    width: 139px;
+    height: 60px;
+    margin: 16px 0;
+}
+
+header nav ul {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    gap: 32px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+#banner {
+    background-image: url("./assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 674px;
+
+}
+
+#banner .container {
+    padding: 115px 120px 175px 120px;
+    text-align: center;
+
+}
+
+.container .btn-1 .open-btn {
+    background-color: #FFFFFF;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+.container .title h1 {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+
+.container .title .title-color {
+    color: #30B868;
+}
+
+.container .para p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.container .btn-2 {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.work-btn {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+#notes {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#notes .container{
+    width: 100%;
+    max-width: 1600px;
+    height: 448px;
+    margin: 0 auto;
+    /* border: 1px solid rgb(230, 108, 8); */
+    align-items: center;
+}
+#notes .container .notes-title h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #001931;
+}
+#notes .container .notes-title p {
+    font-size: 16px;
+    margin-bottom: 44px;
+    line-height: 20px;
+    color: #627382;
+}
+#notes .cards {
+    
+    width: 100%;
+    max-width: 1360px;
+    margin-top: 44px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    
+}
+#notes .cards-info {
+
+    width: 322px;
+    height: 300px;
+    padding: 69.5px 24px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+
+}
+#notes .cards-info .icon {
+
+    background-color: #F95555;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+#notes .cards-info h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 16px 0;
+    color: #001931;
+
+    
+}
+#notes .cards-info p {
+    font-size: 16px;
+    margin-bottom: 69.5px;
+    line-height: 20px;
+    color: #627382;
+
+    
+}
+#brain{
+    width: 100%; 
+    max-width: 1600px;
+    height: 840px;
+    margin: 0 auto;
+    /* border: 1px solid aqua; */
+}
+#brain .brain-container{
+    width: 100%; 
+    max-width: 1360px;
+    height: 600px;
+    /* border: 1px solid rgb(230, 108, 8); */
+    display: flex;
+    margin: 120px 120px;
+    justify-content: center;
+    align-items: center;
+}
+#brain .brain-container .brain-img{
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+    margin-right: 60px;
+
+}
+#brain .brain-container .brain-content{
+    width: 100%;
+    max-width: 700px;
+    height: 396px;
+
+}
+#brain .brain-container .brain-content h5{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #469165;
+
+}
+#brain .brain-container .brain-content h1{
+     font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #001931;
+
+}
+#brain .brain-container .brain-content p{
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 20px;
+    color: #627382;
+
+}
+#brain .brain-container .brain-content ul{
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+
+}
+#brain .brain-container .brain-content ul li{
+    list-style: none;
+    margin-bottom: 16px;
+    line-height: 20px;
+    color: #001931;
+
+}
+#think{
+    width: 100%;
+    max-width: 1600px;
+    height: 506px;
+    /* border: 1px solid aqua; */
+    text-align: center;
+    margin: 0 auto;
+    
+}
+#think .think-container{
+    width: 100%;
+    max-width: 1360px;
+    height: 348px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    justify-content: center;
+
+
+}
+#think .think-container h1{
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 80px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+#think .think-container p{
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height: 24px;
+    color: #627382;
+}
+#think .think-container .p1{
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+
+footer{
+    width: 100%;
+    /* max-width: 1600px; */
+    height: 348px;
+    text-align: center;
+    /* border: 1px solid #001931; */
+    background-color: #001931;
+    margin: 0 auto;
+}
+footer .footer-container{
+    width: 100%;
+    max-width: 1360px;
+    height: 198px;
+    padding-top: 120px;
+    /* border: 1px solid rgb(245, 133, 6); */
+    margin: 0 auto;
+
+
+}
+footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-content .social{
+    margin-right: 107px;
+    margin-bottom: 80px;
+}
+footer .footer-content .social h3{
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    font-size: 20px;
+
+}
+footer .footer-content .social-icon{
+    display: flex;
+    gap: 16px;
+}
+footer .footer-container p{
+    font-size: 16px;
+    margin-bottom: 30px;
+
+    line-height: 24px;
+    color: #FAFAFA;
+}
+footer .footer-container hr{
+    border: none;
+    height: 1px;
+    background-color: #E5E7EB;
+    margin-bottom: 30px;
+}
